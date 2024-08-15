@@ -1,0 +1,313 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation styles */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    z-index: 100; /* Ensure the nav bar appears above other elements */
+}
+
+.logo {
+    width: 50px; /* Adjust the size of the circular logo */
+    height: 50px; /* Adjust the size of the circular logo */
+    border-radius: 50%; /* Makes the logo circular */
+    overflow: hidden; /* Clips the image to fit the circular shape */
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintain aspect ratio and cover the circular area */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 40px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Hero section styles */
+.hero {
+    background-color: powderblue;
+    background-size: cover;
+    background-position: center;
+    color: rgb(6, 0, 0);
+    text-align: center;
+    padding: 160px 0 100px; /* Adjust top padding to create space for the nav bar */
+}
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff9900;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+    background-color: #e68300;
+}
+
+.course-boxes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.course-box {
+    flex-basis: calc(33.33% - 20px);
+    padding: 40px;
+    background-color: #b0a0a0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center align content */
+    margin-right: 20px; /* Add margin-right for gap */
+}
+
+.course-box:last-child {
+    margin-right: 0; /* Remove margin-right for the last box */
+}
+
+.course-box img {
+    max-width: 150px; /* Adjust the max width of the course box images */
+    height: auto;
+    margin-bottom: 10px; /* Add some spacing between image and text */
+}
+
+.course-box h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.course-box p {
+    font-size: 16px;
+}
+.test-now {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff4444; /* Change the background color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer; /* Show pointer cursor on hover */
+    transition: background-color 0.3s ease-in-out;
+}
+
+.test-now:hover {
+    background-color: #cc3333; /* Change the background color on hover */
+}
+.form-container {
+    width: 320px;
+    border-radius: 0.75rem;
+    background-color: rgb(78, 78, 78);
+    padding: 2rem;
+    color: rgba(243, 244, 246, 1);
+    margin: auto; 
+  
+  margin-top: 1.5rem;
+}
+
+.input-group {
+  margin-top: 0.25rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+
+.input-group label {
+  display: block;
+  color: rgba(156, 163, 175, 1);
+  margin-bottom: 4px;
+}
+
+.input-group input {
+  width: 95%;
+  border-radius: 0.375rem;
+  border: 1px solid rgba(55, 65, 81, 1);
+  outline: 0;
+  background-color: rgb(20, 20, 21);
+  padding: 0.75rem 1rem;
+  color: rgba(243, 244, 246, 1);
+}
+
+.input-group input:focus {
+  border-color: rgba(167, 139, 250);
+}
+.input-group-role {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.25rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.input-group-role label {
+  color: rgba(156, 163, 175, 1);
+  margin-bottom: 4px;
+}
+
+.input-group-role select {
+  width: 100%;
+  border-radius: 0.375rem;
+  border: 1px solid rgba(55, 65, 81, 1);
+  outline: 0;
+  background-color: rgba(17, 24, 39, 1);
+  padding: 0.75rem 1rem;
+  color: rgba(243, 244, 246, 1);
+}
+
+
+.forgot {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color: rgba(156, 163, 175,1);
+  margin: 8px 0 14px 0;
+}
+
+.forgot a,.signup a {
+  color: rgba(243, 244, 246, 1);
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.forgot a:hover, .signup a:hover {
+  text-decoration: underline rgba(167, 139, 250, 1);
+}
+
+.sign {
+  display: block;
+  width: 100%;
+  background-color: rgba(167, 139, 250, 1);
+  padding: 0.75rem;
+  text-align: center;
+  color: rgba(17, 24, 39, 1);
+  border: none;
+  border-radius: 0.375rem;
+  font-weight: 600;
+}
+.sign:hover {
+  background-color: rgba(203, 122, 255, 1); 
+  color: rgba(17, 24, 39, 1);
+}
+.entrance-photo {
+    display: block;
+    margin: 0 auto;
+    width: 200px; 
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 50%; 
+    margin-bottom: 20px; 
+  }
+  .list {
+    flex-basis: 50%; /* Make the list take up 50% of the width */
+    padding: 20px;
+    background-color: #9f5757;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(240, 7, 7, 0.1);
+}
+
+.list ol {
+    list-style: decimal;
+    padding-left: 20px;
+}
+
+
+.developers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  background-color: #9f5757;
+}
+
+.developer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px;
+  background-color: #9f5757;
+}
+
+.developer img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.developer p {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+.course-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.course {
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+}
+
+.course img {
+  max-width: 20%;
+  height: auto;
+}
+
+.course h2 {
+  margin: 10px 0;
+}
+
+.course p {
+  margin-bottom: 10px;
+}

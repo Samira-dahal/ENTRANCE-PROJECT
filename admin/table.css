@@ -1,0 +1,141 @@
+
+table {
+    border-collapse: collapse;
+    width: 90%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the table horizontally */
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+
+/* Style table headers */
+th {
+    background-color: #0000007b;
+    text-align: left;
+    padding: 10px;
+}
+
+/* Style table rows */
+tr {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Alternate row background color for better readability */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Style table cells (td) */
+td {
+    padding: 10px;
+}
+
+/* Style edit and delete buttons */
+.edit-button,
+.delete-button,
+.return-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 3px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+/* Style the edit and delete buttons */
+.edit-button {
+    display: inline-block;
+    padding: 5px 15px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 3px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.delete-button {
+    display: inline-block;
+    padding: 5px 15px;
+    background-color: #f90f0f;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 3px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.return-button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #3224fa;
+    color: #ffffff;
+    text-decoration: none;
+    border: none;
+    border-radius: 3px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.edit-button:hover,
+.delete-button:hover {
+    background-color: #0056b3;
+}
+
+
+.return-button:hover {
+    background-color: #365bf0;
+}
+.del-button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #fe0303;
+    color: #ffffff;
+    text-decoration: none;
+    border: none;
+    border-radius: 3px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.del-button:hover {
+    background-color: #365bf0;
+}
+.ret-button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #fe0303;
+    color: #ffffff;
+    text-decoration: none;
+    border: none;
+    border-radius: 3px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.ret-button:hover {
+    background-color: #365bf0;
+}
+.add-button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #053d02;
+    color: #ffffff;
+    text-decoration: none;
+    border: none;
+    border-radius: 3px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.add-button:hover {
+    background-color: #365bf0;
+}
+/* styles.css */
+a {
+    color: white; /* Set the text color to white */
+    text-decoration: none; /* Remove underline on links (if desired) */
+}
+
+/* You can add more specific styles for different types of links if needed */

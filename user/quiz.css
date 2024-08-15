@@ -1,0 +1,81 @@
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        margin: 0;
+        padding: 0;
+    }
+
+    h1 {
+        text-align: center;
+        color: #333;
+    }
+
+    form {
+        max-width: 600px;
+        margin: 0 auto;
+        background-color: #aca1a1;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    label {
+        display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+
+    select,
+    input[type="submit"] {
+        width: 45%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #f63737;
+        border-radius: 5px;
+    }
+
+    .option {
+        margin-bottom: 10px;
+    }
+
+    .correct {
+        background-color: #a0ea94; /* Green background for correct option */
+    }
+
+    .incorrect {
+        background-color: #ea9e9e; /* Red background for incorrect option */
+    }
+
+    .score {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    #scoreDisplay {
+        font-size: 24px;
+        font-weight: bold;
+        color: #333;
+    }
+/* Center the button horizontally */
+.button-container {
+    text-align: center;
+    margin-top: 20px; /* Adjust the margin as needed */
+}
+
+a.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Hover effect for the button */
+a.button:hover {
+    background-color: #555;
+}
+

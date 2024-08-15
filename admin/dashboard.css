@@ -1,0 +1,83 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style the body background and fonts */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.content{
+    font-size: 25px;
+}
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Style the logo image */
+.button-icon {
+    max-width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Style the main content area */
+.main-content {
+    padding: 20px;
+}
+
+/* Style the action buttons container */
+.action-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Style the action button */
+.button {
+    display: inline-block;
+    text-align: center;
+    background-color: #e86969;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    width: 150px; /* Set a fixed width for uniform size */
+    white-space: normal; /* Allow text wrapping */
+}
+
+/* Hover effect for buttons */
+.button:hover {
+    background-color: #0056b3;
+}
+
+/* Style the button icons */
+.button-icon {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+/* Style the Logout button */
+.logout-button {
+    background-color: #dc3545;
+}
+
+
+/* Style the footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+}
